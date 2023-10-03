@@ -37,10 +37,19 @@ h2 {
     word-spacing: 10px;
 }
 
+h3 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
 p {
     font-size: 25px;
     padding-top: 35px;
     line-height: 40px;
+}
+
+span {
+    margin: 5px;
 }
 
 .sfondo {
@@ -146,7 +155,8 @@ header {
     padding: 10px;
 }
 
-.bottoni :nth-child(1)::before {
+.bottoni :nth-child(1)::before,
+.immagine>button::before {
     content: '\1F847';
 }
 
@@ -193,8 +203,14 @@ header {
 .immagine>img {
     width: 100%;
 }
-.schermo>p{
+
+.schermo>p {
     text-align: center;
+}
+
+.immagine>button {
+    background-color: #7289da;
+    color: white;
 }
 
 /* /main */
@@ -202,7 +218,7 @@ header {
 /* footer */
 
 .foot {
-    padding-top: 12px;
+    padding-top: 80px;
     padding-bottom: 50px;
     justify-content: center;
     align-items: center;
@@ -211,7 +227,17 @@ header {
 
 .colonna-1 {
     width: 370px;
+}
 
+.colonna-1>img {
+    width: 30px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+.caratteri-speciali {
+    padding-top: 15px;
+    word-spacing: 15px;
 }
 
 .colonna-2 {
