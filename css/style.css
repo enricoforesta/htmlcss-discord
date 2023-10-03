@@ -9,15 +9,19 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+header,
+footer {
+    color: white;
+}
+
+footer {
+    background-color: #23272a;
+}
+
 .contenitore {
     display: flex;
     margin: 0 auto;
     justify-content: center;
-}
-
-header,
-footer {
-    color: white;
 }
 
 button {
@@ -27,6 +31,18 @@ button {
     padding: 10px;
 }
 
+.sfondo {
+    background-color: #d3d3d3;
+}
+
+.immagine>button,
+.fine>button {
+    background-color: #7289da;
+    color: white;
+}
+
+/* /COMUNI */
+/* Font */
 h1 {
     font-size: 50px;
     text-align: center;
@@ -42,6 +58,11 @@ h3 {
     padding-bottom: 30px;
 }
 
+.colonna-1>h3,
+h4 {
+    color: #7289da;
+}
+
 p {
     font-size: 25px;
     padding-top: 35px;
@@ -52,58 +73,7 @@ span {
     margin: 5px;
 }
 
-.sfondo {
-    background-color: #d3d3d3;
-}
-
-/* /COMUNI */
-
-/* DEBUG COMUNE */
-
-.debug .verde,
-.debug .colonna-1,
-.debug .fine>div {
-    border: 2px dashed black;
-}
-
-/* /DEBUG COMUNE */
-
-
-/* DEBUG MAIN */
-
-
-
-
-/* /DEBUG MAIN */
-/* DEBUG FOOTER */
-.debug footer {
-    background-color: #23272a;
-}
-
-.debug .colonna-1 {
-    background-color: #f08080;
-    height: 600px;
-}
-
-.debug .colonna-2 {
-    background-color: #20b2aa;
-    height: 600px;
-}
-
-.debug .colonna-2>div {
-    border: 2px dashed white;
-}
-
-.debug .fine {
-    height: 85px;
-    background-color: #7fffd4;
-}
-
-.debug .fine>div {
-    background-color: #ffb6c1;
-}
-
-/* /DEBUG FOOTER */
+/* /font */
 
 /* header */
 
@@ -121,15 +91,15 @@ header {
 
 }
 
-
 .link {
     width: 60%;
     text-align: center;
 }
 
-.logo {
-    width: 20%;
+.link>span {
+    margin: 20px;
 }
+
 
 /* /prima parte header */
 /* seconda parte header */
@@ -143,7 +113,6 @@ header {
 }
 
 .bottoni {
-    justify-content: center;
     padding: 10px 0 100px;
 }
 
@@ -169,7 +138,7 @@ header {
 /* /header */
 
 /* main */
-
+/* sezioni 1-3 */
 .colonna {
     padding: 100px 200px;
 }
@@ -184,14 +153,12 @@ header {
     padding: 50px;
 }
 
+/* /sezioni 1-3 */
+/* sezione 4 */
 .schermo {
     padding: 100px 250px;
     flex-direction: column;
     align-items: center;
-}
-
-.grande {
-    background-color: #d3d3d3;
 }
 
 .immagine {
@@ -208,21 +175,16 @@ header {
     text-align: center;
 }
 
-.immagine>button {
-    background-color: #7289da;
-    color: white;
-}
 
+/* /sezione 4 */
 /* /main */
 
 /* footer */
+/* prima parte footer */
 
 .foot {
     padding-top: 80px;
     padding-bottom: 50px;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 2px solid white;
 }
 
 .colonna-1 {
@@ -250,15 +212,20 @@ header {
     flex-grow: 1;
 }
 
+li {
+    margin: 15px 0;
+    list-style: none;
+}
+
+/* /prima parte footer */
+/* seconda parte footer */
 .fine {
     max-width: 1250px;
     justify-content: space-between;
-    align-items: center;
     margin-top: 20px;
+    border-top: 2px solid #7289da;
+    padding: 20px 0;
 }
 
-.fine>div {
-    padding: 5px;
-}
-
+/* /seconda parte footer */
 /* /footer */
