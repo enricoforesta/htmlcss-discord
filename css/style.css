@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMUNI */
+
+.contenitore {
+    display: flex;
+    margin: 0 auto;
+}
+header, footer{
+    color: white;
+}
+button{
+    margin: 10px;
+    border-radius: 50px;
+}
+
+/* /COMUNI */
+
+/* DEBUG COMUNE */
+
+
+.debug .video,
+.debug .colonna1,
+.debug .colonna2,
+.debug .verde,
+.debug .colonna-1,
+.debug .fine>div {
+    border: 2px dashed black;
+}
+
+/* /DEBUG COMUNE */
+
+/* DEBUG HEADER */
+
+
+.debug .sfondo-video {
+    height: 525px;
+}
+
+.debug .video {
+    background-color: #ee82ee;
+    height: 415px;
+}
+
+/* /DEBUG HEADER */
+
+/* DEBUG MAIN */
+.debug .colonna1 {
+    background-color: #1e90ff;
+    height: 520px;
+}
+
+.debug .colonna2 {
+    background-color: #ffc0cb;
+    height: 520px;
+}
+
+.debug .reverse,
+.schermo {
+    background-color: #d3d3d3;
+}
+
+.debug .contenitore.verde {
+    height: 940px;
+    background-color: #228b22;
+}
+
+/* /DEBUG MAIN */
+/* DEBUG FOOTER */
+.debug footer {
+    background-color: #23272a;
+}
+
+.debug .colonna-1 {
+    background-color: #f08080;
+    height: 600px;
+}
+
+.debug .colonna-2 {
+    background-color: #20b2aa;
+    height: 600px;
+}
+
+.debug .colonna-2>div {
+    border: 2px dashed white;
+}
+
+.debug .fine {
+    height: 85px;
+    background-color: #7fffd4;
+}
+
+.debug .fine>div {
+    background-color: #ffb6c1;
+}
+
+/* /DEBUG FOOTER */
+
+/* header */
+
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+
+}
+.color {
+    padding: 20px;
+}
+
+.credenziali {
+    max-width: 1250px;
+    justify-content: space-between;
+}
+
+.credenziali>* {
+    padding: 10px;
+}
+
+.link {
+    width: 60%;
+    text-align: center;
+}
+
+.logo {
+    width: 20%;
+}
+
+
+.contenitore.video {
+    max-width: 950px;
+}
+
+.sfondo-video {
+    padding: 55px;
+    border-bottom: 4px solid #add8e6;
+}
+
+
+/* /header */
+
+/* main */
+
+.colonna {
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+}
+
+.colonna1 {
+    width: 60%;
+}
+
+.colonna2 {
+    width: 40%;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.schermo {
+    padding: 55px;
+}
+
+.verde {
+    width: 1250px;
+}
+
+/* /main */
+
+/* footer */
+
+.foot {
+    padding-top: 12px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+
+.colonna-1 {
+    width: 370px;
+
+}
+
+.colonna-2 {
+    width: 875px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.colonna-2>div {
+    flex-grow: 1;
+}
+
+.fine {
+    max-width: 1250px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.fine>div {
+    padding: 5px;
+}
+
+/* /footer */
