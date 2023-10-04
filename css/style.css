@@ -6,7 +6,8 @@
 
 /* COMUNI */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
 }
 
 header,
@@ -28,7 +29,8 @@ button {
     margin: 10px;
     border-radius: 50px;
     border: none;
-    padding: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
 }
 
 .sfondo {
@@ -39,6 +41,10 @@ button {
 .fine>button {
     background-color: #7289da;
     color: white;
+}
+img{
+    display: inline-block;
+    width: 100%;
 }
 
 /* /COMUNI */
@@ -69,9 +75,6 @@ p {
     line-height: 40px;
 }
 
-span {
-    margin: 5px;
-}
 
 /* /font */
 
@@ -94,6 +97,8 @@ header {
 .link {
     width: 60%;
     text-align: center;
+    padding-top: 15px
+;
 }
 
 .link>span {
@@ -144,12 +149,12 @@ header {
 }
 
 .colonna1 {
-    max-width: 60%;
-    ;
+    width: 60%;
+    
 }
 
 .colonna2 {
-    max-width: 40%;
+    width: 40%;
     padding: 50px;
 }
 
@@ -165,10 +170,6 @@ header {
     width: 1250px;
     flex-direction: column;
     align-items: center;
-}
-
-.immagine>img {
-    width: 100%;
 }
 
 .schermo>p {
@@ -194,7 +195,6 @@ header {
 .colonna-1>img {
     width: 30px;
     height: 20px;
-    vertical-align: bottom;
 }
 
 .caratteri-speciali {
@@ -229,3 +229,12 @@ li {
 
 /* /seconda parte footer */
 /* /footer */
+
+
+/* star */
+.immagine>h3{
+    background-image: url(../img/stars.svg);
+    padding: 50px;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
