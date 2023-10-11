@@ -25,23 +25,11 @@ footer {
     justify-content: center;
 }
 
-button {
-    margin: 10px;
-    border-radius: 50px;
-    border: none;
-    padding: 10px 15px;
-    font-size: 14px;
-}
 
 .sfondo {
     background-color: #d3d3d3;
 }
 
-.immagine>button,
-.fine>button {
-    background-color: #7289da;
-    color: white;
-}
 img{
     display: inline-block;
     width: 100%;
@@ -75,7 +63,21 @@ p {
     line-height: 40px;
 }
 
-
+a{
+    all: unset;
+    color: currentColor;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    padding: 10px 19px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.contenitore.immagine a,
+.contenitore.fine a{
+    background-color: #7289da;
+    color: white;
+}
 /* /font */
 
 /* header */
@@ -97,14 +99,12 @@ header {
 .link {
     width: 60%;
     text-align: center;
-    padding-top: 15px
-;
+
 }
 
 .link>span {
     margin: 20px;
 }
-
 
 /* /prima parte header */
 /* seconda parte header */
@@ -125,12 +125,8 @@ header {
     text-align: center;
 }
 
-.bottoni>button {
-    padding: 10px;
-}
-
 .bottoni :nth-child(1)::before,
-.immagine>button::before {
+.immagine>a::before {
     content: '\1F847';
 }
 
